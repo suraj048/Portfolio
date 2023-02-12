@@ -54,7 +54,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "md:hidden fixed left-20 top-10 w-full h-screen bg-gray-400  text-amber-500"
+            ? "md:hidden fixed left-0 top-0 w-full h-screen bg-gray-800  text-amber-500"
             : " "
         }
       >
@@ -62,7 +62,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-20 top-10 w-[75%] sm:w-[75%] md:w-[60%] h-screen bg-gray-400 p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gray-800 px-10 py-4 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -84,7 +84,7 @@ const Navbar = () => {
               </p>
             </div>
           </div>
-          <div className="py-4 flex flex-col">
+          <div className="py-2 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
                 <li onClick={() => setNav(false)} className="py-4 text-sm ">
@@ -107,7 +107,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-4">
               <p className="uppercase tracking-widest">Let&#39;s Connect</p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
