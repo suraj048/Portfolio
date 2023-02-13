@@ -46,7 +46,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image src={Javascript} width={64} height={64} alt="/" />
               </div>
-              <div className="flex flex-col items-center justify-center pl-2">
+              <div className="flex flex-col items-center justify-center pl-2 ml-2 sm:ml-auto">
                 <h3>JavaScript</h3>
               </div>
             </div>
