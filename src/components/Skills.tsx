@@ -13,14 +13,14 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="w-full lg:h-screen p-8 text-xl sm:text-2xl text-center  text-amber-500  bg-neutral-800"
+      className="w-full lg:h-screen p-8 sm:text-2xl text-center  text-amber-500  bg-neutral-800"
     >
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center py-8 my-8 sm:py-auto sm:my-16">
         <p className="pt-2 mt-8 sm:mt-auto font-bold tracking-widest uppercase text-[#ffffff]">
           Skills
         </p>
         <h2 className="py-0 sm:py-2">What I Can Do</h2>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-xl sm:text-2xl">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-base sm:text-2xl">
           <div className="p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
