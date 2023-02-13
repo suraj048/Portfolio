@@ -46,7 +46,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image src={Javascript} width={64} height={64} alt="/" />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center pl-2">
                 <h3>JavaScript</h3>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Skills = () => {
               <div className="m-auto">
                 <Image src={Typescript} width={64} height={64} alt="/" />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center pl-2">
                 <h3>TypeScript</h3>
               </div>
             </div>
